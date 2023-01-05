@@ -63,7 +63,8 @@ nav li {
 /* banner styles */
 .banner {
     display: flex;
-    margin: 0 200px;
+    padding: 0px 200px;
+    
 }
 
 .banner-title {
@@ -87,9 +88,9 @@ nav li {
     margin-bottom: 30px;
 }
 
-.babushab {
+/* .babushab {
     margin-left: 400px;
-}
+} */
 
 /* main style */
 main {
@@ -190,12 +191,58 @@ main {
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
-   
+
 }
+
 /* Resume section style */
-.h-resume{
+.resume{
+    align-items: center;
+}
+.h-resume {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
     color: #181818;
+    margin-bottom: 113px;
+}
+
+.resume-con {
+    display: flex;
+    gap: 71px;
+}
+
+.edu {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+
+.r-h {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.edu-masters {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.uni {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.edu-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.re-btn{
+    text-align: center;
 }
