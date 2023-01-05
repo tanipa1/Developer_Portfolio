@@ -5,7 +5,7 @@
 
 .btn1 {
     height: 64px;
-    width: 150px;
+    width:fit-content;
     border-radius: 5px;
     background-color: #FD6E0A;
     color: white;
@@ -245,4 +245,5 @@ main {
 }
 .re-btn{
     text-align: center;
+    margin-bottom: 113px;
 }
